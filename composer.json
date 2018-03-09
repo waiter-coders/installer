@@ -1,0 +1,15 @@
+{
+  "name": "waiterphp/installer",
+  "description": "this is app sample app",
+  "type": "project",
+  "require": {
+    "smarty/smarty": "^3.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tian Zheng",
+      "email": "949855040@qq.com"
+    }
+  ]
+}
