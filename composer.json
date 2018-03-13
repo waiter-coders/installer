@@ -1,5 +1,5 @@
 {
-	"name": "johnpbloch/wordpress-core-installer",
+	"name": "waiterphp/installer",
 	"description": "A custom installer to handle deploying WordPress with composer",
 	"keywords": [
 		"wordpress"

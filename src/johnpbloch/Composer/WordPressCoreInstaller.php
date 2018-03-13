@@ -40,6 +40,7 @@ class WordPressCoreInstaller extends LibraryInstaller {
 	 * {@inheritDoc}
 	 */
 	public function getInstallPath( PackageInterface $package ) {
+		return 'waiterphp';
 		$installationDir = false;
 		$prettyName      = $package->getPrettyName();
 		if ( $this->composer->getPackage() ) {
@@ -81,6 +82,7 @@ class WordPressCoreInstaller extends LibraryInstaller {
 	 * {@inheritDoc}
 	 */
 	public function supports( $packageType ) {
+		return true;
 		return self::TYPE === $packageType;
 	}
 
