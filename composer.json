@@ -6,7 +6,7 @@
 		"psr-0": {"waiterphp\\Composer": "src/"}
 	},
 	"extra": {
-		"class": "waiterphp\\Composer\\InstallCorePlugin"
+		"class": "waiterphp\\Composer\\InstallPlugin"
 	},
 	"require": {
 		"composer-plugin-api": "^1.0"
