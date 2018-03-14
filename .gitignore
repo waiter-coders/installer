@@ -1,4 +1,10 @@
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
 composer.lock
-vendor
-phpunit.xml
-clover.xml
+*.local.php
+

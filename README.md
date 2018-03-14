@@ -1,41 +1,16 @@
-# WordPress Core Installer
-
-[![Build Status](https://travis-ci.org/johnpbloch/wordpress-core-installer.svg?branch=master)](https://travis-ci.org/johnpbloch/wordpress-core-installer)
-[![codecov](https://img.shields.io/codecov/c/github/johnpbloch/wordpress-core-installer/master.svg)](https://codecov.io/gh/johnpbloch/wordpress-core-installer)
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![Packagist](https://img.shields.io/packagist/dt/johnpbloch/wordpress-core-installer.svg)](https://packagist.org/packages/johnpbloch/wordpress-core-installer)
-![GitHub tag](https://img.shields.io/github/tag/johnpbloch/wordpress-core-installer.svg)
-
-A custom Composer plugin to install WordPress core outside of `vendor`.
-
-### Usage
-To set up a custom WordPress build package to use this as a custom installer, add the following to your package's composer file:
+### waiterphp后台项目方案
+该方案基于waiterphp/app开发。提供了后台的常见功能，如登录、权限、列表、表单、统计等。项目采用类库和模板代码的形式，为后台的开发提供快速构建的能力，并保持低耦合的二次开发性能。
+### vue前端
+本后来采用vue解决前端界面，可以访问以下链接下载代码：
 
 ```
-"type": "wordpress-core",
-"require": {
-	"johnpbloch/wordpress-core-installer": "^1.0"
-}
+https://github.com/waiterphp/admin-vue
 ```
 
-By default, this package will install a `wordpress-core` type package in the `wordpress` directory. To change this you can add the following to either your custom WordPress core type package or the root composer package:
+也可以通过npm安装:
 
-```
-"extra": {
-	"wordpress-install-dir": "custom/path"
-}
+``` javascript
+npm install
 ```
 
-The root composer package can also declare custom paths as an object keyed by package name:
-
-```
-"extra": {
-	"wordpress-install-dir": {
-		"wordpress/wordpress": "wordpress",
-		"johnpbloch/wordpress-core": "jpb-wordpress"
-	}
-}
-```
-
-### License
-This is licensed under the GPL version 2 or later.
+不熟悉vue，可以直接
