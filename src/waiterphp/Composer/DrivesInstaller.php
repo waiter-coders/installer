@@ -2,6 +2,7 @@
 
 namespace waiterphp\Composer;
 
+use Composer\Package\PackageInterface;
 
 class DrivesInstaller extends InstallerBase {
 
